@@ -4,7 +4,7 @@ var imports = {
 }
 
 function hello (req, res){
-    console.log('someone hit me');
+    console.log('somebody hit me');
     res.write('hey. Im from server.');
     res.end();
 }
